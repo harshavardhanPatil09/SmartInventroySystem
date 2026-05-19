@@ -23,6 +23,11 @@
 /mvnw
 /mvnw.cmd
 
+# Generated files & output
+/receipts/
+*.pdf
+*.csv
+
 # OS files
 Thumbs.db
 ehthumbs.db
