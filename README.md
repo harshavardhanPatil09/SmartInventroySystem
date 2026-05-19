@@ -2,12 +2,18 @@
 
 Simple desktop inventory and billing system (Java + Swing). This repository was upgraded to target Java 21.
 
-How to build locally (Windows PowerShell):
+## Build & Run
 
+Requires: JDK 21+ and Maven 3.9+
+
+```bash
+mvn clean package
+```
+
+Or on Windows PowerShell:
 ```powershell
-# Install/open JDK 21 and Maven, then:
-$env:JAVA_HOME='C:\Users\Lenovo\AppData\Local\jdks\jdk-21.0.10'
-& 'C:\Users\Lenovo\.maven\maven-3.9.16\bin\mvn.cmd' -B clean package
+$env:JAVA_HOME='<path-to-jdk-21>'
+mvn.cmd clean package
 ```
 # Smart Inventory & Billing System
 
